@@ -1,0 +1,9 @@
+# Create a dictionary and take input from the user and return the meaning of the word from the dictionary
+# take upto 4 words
+
+dict = {"Qualify": "be eligible",
+        "Tactic": "strategy",
+        "Borrow": "take",
+        "Glad": "happy"}
+data = input("Enter the word from the dictionary: ")
+print("The meaning of the word is ", dict[data])
